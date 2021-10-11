@@ -1,4 +1,4 @@
-import { isAVaidURL } from "./checkURL";
+// import { isAVaidURL } from "./checkURL";
 
 function handleSubmit(e) {
   e.preventDefault();
@@ -82,4 +82,8 @@ const polarity = (P) => {
 };
 
 export { handleSubmit };
-// export { polarityChecker };
+export { polarity };
+
+// module.exports= handleSubmit;
+// module.exports= polarity;
+
